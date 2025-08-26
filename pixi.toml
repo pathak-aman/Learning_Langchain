@@ -1,0 +1,26 @@
+[workspace]
+authors = ["pathak-aman <amanpathak2909@gmail.com>"]
+channels = ["conda-forge"]
+name = "langchain_series"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.13.5,<3.14"
+
+[pypi-dependencies]
+langchain = ">=0.3.27, <0.4"
+langchain-core = ">=0.3.74, <0.4"
+langchain-openai = ">=0.3.31, <0.4"
+openai = ">=1.101.0, <2"
+langchain-anthropic = ">=0.3.19, <0.4"
+langchain-google-genai = ">=2.0.10, <3"
+google-generativeai = ">=0.8.5, <0.9"
+langchain-huggingface = ">=0.3.1, <0.4"
+transformers = ">=4.55.4, <5"
+huggingface-hub = ">=0.34.4, <0.35"
+python-dotenv = ">=1.1.1, <2"
+numpy = ">=2.3.2, <3"
+scikit-learn = ">=1.7.1, <2"
