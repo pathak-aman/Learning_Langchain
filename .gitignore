@@ -1,4 +1,6 @@
 # pixi environments
 .pixi/*
 !.pixi/config.toml
+
 .env
+.DS_Store
